@@ -1,4 +1,4 @@
-block_dpcpp_content = """
+
 #include "Block.h"
 #include "sha256.h"
 #include <CL/sycl.hpp>

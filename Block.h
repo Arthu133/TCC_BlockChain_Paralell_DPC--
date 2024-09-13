@@ -1,6 +1,3 @@
-# Adicionando modificações para compatibilidade com SYCL em Block.h
-
-block_h_dpcpp_content = """
 #ifndef TESTCHAIN_BLOCK_H
 #define TESTCHAIN_BLOCK_H
 
@@ -32,7 +29,3 @@ private:
 };
 
 #endif //TESTCHAIN_BLOCK_H
-"""
-
-# Exibindo o conteúdo atualizado de Block.h para DPC++
-block_h_dpcpp_content

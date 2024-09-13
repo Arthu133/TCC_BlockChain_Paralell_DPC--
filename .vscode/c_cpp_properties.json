@@ -14,10 +14,10 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/dpcpp.exe",//C++ "C:\\MinGW\\bin\\gcc.exe", 
+            "compilerPath": "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/dpcpp.exe",
             "cStandard": "c11",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x86"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-x64"
         }
     ],
     "version": 4

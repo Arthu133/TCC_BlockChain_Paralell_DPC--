@@ -1,4 +1,4 @@
-sha256_h_dpcpp_content = """
+
 #ifndef SHA256_H
 #define SHA256_H
 

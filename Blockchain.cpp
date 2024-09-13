@@ -1,5 +1,5 @@
 
-blockchain_dpcpp_content = """
+
 #include "Blockchain.h"
 #include "Block.h"
 

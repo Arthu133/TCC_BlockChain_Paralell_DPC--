@@ -1,5 +1,5 @@
 
-main_dpcpp_content = """
+
 #include "Blockchain.h"
 #include <iostream>
 #include <CL/sycl.hpp>

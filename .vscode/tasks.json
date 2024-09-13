@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build DPC++",
+            "type": "shell",
+            "command": "dpcpp",
+            "args": [
+                "-I", "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/include/sycl",
+                "-o", "${workspaceFolder}/output_program",
+                "${workspaceFolder}/Block.cpp",
+                "${workspaceFolder}/Blockchain.cpp",
+                "${workspaceFolder}/sha256.cpp",
+                "${workspaceFolder}/main.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compila o projeto Blockchain DPC++"
+        }
+    ]
+}
