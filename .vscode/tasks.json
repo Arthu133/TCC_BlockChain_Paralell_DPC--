@@ -4,8 +4,9 @@
         {
             "label": "build DPC++",
             "type": "shell",
-            "command": "dpcpp",
+            "command": "icpx",  // Substituímos dpcpp por icpx
             "args": [
+                "-fsycl",  // Flag para garantir a compilação SYCL
                 "-I", "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/include/sycl",
                 "-o", "${workspaceFolder}/output_program",
                 "${workspaceFolder}/Block.cpp",

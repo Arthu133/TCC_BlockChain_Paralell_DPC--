@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "C:/Program Files (x86)/Intel/oneAPI/dpcpp-ct/latest/include",
                 "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/include/sycl",
-                "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/include"
+                "C:/Program Files (x86)/Intel/oneAPI/tbb/latest/include",
+                "C:/Program Files (x86)/Intel/oneAPI/dpl/latest/include"
                 
             ],
             "defines": [
@@ -14,7 +15,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/dpcpp.exe",
+            "compilerPath": "C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/icpx.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-clang-x64"
